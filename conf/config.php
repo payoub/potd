@@ -40,4 +40,9 @@ return array(
 	* Data directory for downloaded contents 
 	*/
 	"data_dir" =>	"/var/www/html/potd/data/",
+
+	/**
+	* Timezone for date functions 
+	*/
+	"timezone" =>	"Australia/Sydney"
 );
