@@ -34,7 +34,7 @@ return array(
 	"xpath_desc_date" 	=>	"//div[@class='article_text']/div[@id='caption']/p[@class='publication_time']",
 	"xpath_desc_title" 	=>	"//div[@class='article_text']/div[@id='caption']/h2",
 	"xpath_desc_credit" 	=>	"//div[@class='article_text']/div[@id='caption']/p[@class='credit']/a",
-	"xpath_desc_body" 	=>	"//div[@class='article_text']/div[@id='caption']/p[not(*)]",
+	"xpath_desc_body" 	=>	"//div[@class='article_text']/div[@id='caption']/p[not(*) and not(@class)]",
 
 	/**
 	* Data directory for downloaded contents 
